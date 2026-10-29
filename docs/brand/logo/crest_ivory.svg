@@ -1,0 +1,9 @@
+<svg viewBox="0 0 260 300" width="260" height="300" xmlns="http://www.w3.org/2000/svg">
+<path d="M40 30 H220 V150 C220 220 170 258 130 280 C90 258 40 220 40 150 Z" fill="#F7F3EA" stroke="#1F2A36" stroke-width="4" stroke-linejoin="round"/>
+<path d="M54 44 H206 V150 C206 210 164 243 130 263 C96 243 54 210 54 150 Z" fill="none" stroke="#1F2A36" stroke-width="1.5" stroke-linejoin="round" opacity="0.7"/>
+<text x="130" y="70" fill="#2F7F8A" font-family="Oswald" font-weight="500" font-size="14" letter-spacing="4" text-anchor="middle">EST. 2026</text>
+<path d="M130 200 L130 150 L94 100 M130 150 L166 100" fill="none" stroke="#1F2A36" stroke-width="26" stroke-linejoin="round"/>
+<path d="M130 200 L130 150 L94 100 M130 150 L166 100" fill="none" stroke="#F7F3EA" stroke-width="13" stroke-linejoin="round"/>
+<path d="M100 222 q 7.5 -6 15 0 t 15 0 t 15 0 t 15 0" fill="none" stroke="#2F7F8A" stroke-width="4" stroke-linecap="round"/>
+<path d="M112 233 q 4.5 -5 9 0 t 9 0 t 9 0 t 9 0" fill="none" stroke="#2F7F8A" stroke-width="4" stroke-linecap="round"/>
+</svg>
