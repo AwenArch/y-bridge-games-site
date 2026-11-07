@@ -38,30 +38,47 @@
   </header>
 
   <main id="main">
-    <section class="hero">
+    <section class="intro">
       <div class="wrap">
-        <h1 class="sr-only">Y-Bridge Games</h1>
-        <div class="crest-box">
-          <img class="crest" src="brand/logo/crest.png" alt="Y-Bridge Games crest" width="1040" height="1200">
+        <img class="crest" src="brand/logo/crest.png" alt="Y-Bridge Games crest" width="1040" height="1200">
+        <div>
+          <h1 class="sr-only">Y-Bridge Games</h1>
+          <p class="tagline">Games built one bridge at a time.</p>
+          <p>An independent game studio in Ohio. Our first game, Shardfall, is in development.</p>
         </div>
-        <img class="wordmark" src="brand/logo/wordmark.png" alt="" width="2000" height="220">
-        <p class="tagline">Games built one bridge at a time.</p>
       </div>
     </section>
 
-    <section class="section" id="games">
-      <div class="wrap">
-        <h2>Games</h2>
-        <p class="lede">What we’re building right now.</p>
+    <section id="games" aria-labelledby="shardfall">
+      <div class="feature-art">
+        <img src="img/shardfall/key-art.jpg" alt="Faction cities of Shardfall gathered around a violet Aether shard in a dark forest" width="1920" height="1080">
+        <div class="title">
+          <div class="wrap"><h2 id="shardfall">Shardfall</h2></div>
+        </div>
+      </div>
 
-        <article class="game-card">
-          <div>
-            <span class="badge">In development</span>
-            <h3>Shardfall</h3>
-            <p>Hero-led armies fight across the ages for territory. Shardfall is a 2D isometric real-time strategy game set in the world of Kaelor, where a fallen star shattered into shards of raw power. Lead your commanders from shard-worshipping tribes to starfaring empires, and hold the land that holds the Aether.</p>
-            <p class="meta">Real-time strategy · PC · Release date to be announced</p>
-          </div>
-        </article>
+      <div class="wrap feature-body">
+        <div>
+          <p>A fallen star shattered over the world of Kaelor and buried its power in the ground. Three alliances fight for the land above it: the Veiled Concord, who believe the star has a soul; the Forged Accord, who see fuel; and the Hunger, who were born from it.</p>
+          <p>Lead an army and its heroes through five ages, from tribes to starfaring empires. Borders decide where you can build, and the only way to win is to take your rival’s cities.</p>
+          <p class="status">In development. No release date yet.</p>
+        </div>
+        <dl class="spec">
+          <div><dt>Genre</dt><dd>Real-time strategy</dd></div>
+          <div><dt>View</dt><dd>2D isometric</dd></div>
+          <div><dt>Platforms</dt><dd>Windows, macOS, Linux</dd></div>
+        </dl>
+      </div>
+
+      <div class="wrap shots">
+        <figure>
+          <img src="img/shardfall/aelari-city.jpg" alt="An Aelari city of domed white halls and glowing fountains" width="1000" height="560" loading="lazy">
+          <figcaption>An Aelari city. Work in progress.</figcaption>
+        </figure>
+        <figure>
+          <img src="img/shardfall/swarm-hive.jpg" alt="A Gorrath hive of fleshy domes and bone spikes" width="1000" height="560" loading="lazy">
+          <figcaption>A Gorrath hive. Work in progress.</figcaption>
+        </figure>
       </div>
     </section>
   </main>
